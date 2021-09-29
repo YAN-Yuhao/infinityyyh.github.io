@@ -1,5 +1,5 @@
 body {
-    background-color: #FFDAB9;
+    background-image:url('images/bkg.jpeg');
     opacity: 0.9;
     width: 960px;
     margin-left: auto;
@@ -16,11 +16,14 @@ img{
     height: 340px;
     float: left;
 }
-p{
+#click{
     margin-left: 300px;
 }
+#txt{
+    color: #CF1010;
+}
 div.sun{
-    background-color:#FFFFFF;
+    background-color:#FFC0C0;
     margin-left: 320px;
     margin-right: auto;
     border-width: 1px;
@@ -31,7 +34,7 @@ div.sun{
     padding-right: 10px;
 }
 div.game{
-    background-color:#FFFFFF;
+    background-color:#FFC0C0;
     margin-left: 320px;
     margin-right: auto;
     border-width: 1px;
@@ -43,7 +46,17 @@ div.game{
 }
 div.img_end {
     clear: both;
-   }
+}
+div.text{
+    background-color:#C0FFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 ol {
     font-size:15px;
     color:#C01010;
